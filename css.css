@@ -1,0 +1,64 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+#colonna
+{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    height: 75px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo  img{
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+
+nav a:hover{
+    color: grey;
+}
+
+.presentazioneFoto img{
+    float: left;
+    padding: 10px;
+    height: 150px;
+
+}
+
+
+.presentazioneTesto  p{
+    padding: 10px;
+    font-size: medium;
+}
+
+.colonna
+{
+    flex:1;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
